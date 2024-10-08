@@ -479,7 +479,6 @@ A coluna **`Utilities`** no dataset refere-se ao **tipo de utilidades disponíve
 
 A disponibilidade de utilidades pode influenciar a decisão de compra e o valor de mercado de uma propriedade.
 
-
 ## **LotConfig**
 
 A coluna **`LotConfig`** no dataset refere-se à **configuração do lote** da propriedade, o que pode afetar o uso do terreno e, consequentemente, seu valor. Essa informação é relevante para entender como a propriedade se relaciona com outras propriedades vizinhas e como o espaço pode ser utilizado.
@@ -494,7 +493,6 @@ A coluna **`LotConfig`** no dataset refere-se à **configuração do lote** da p
 
 A configuração do lote pode influenciar a acessibilidade, o potencial de desenvolvimento e a privacidade da propriedade, impactando seu valor de mercado.
 
-
 ## **LandSlope**
 
 A coluna **`LandSlope`** no dataset refere-se à **inclinação do terreno** da propriedade, que pode afetar a construção, a drenagem e o uso do solo. Essa informação é relevante para entender as características físicas do terreno e como elas podem impactar o valor da propriedade e a habitabilidade.
@@ -506,7 +504,6 @@ A coluna **`LandSlope`** no dataset refere-se à **inclinação do terreno** da 
 - **Sev (Severe Slope)**: Inclinação acentuada — O terreno é bastante inclinado, o que pode representar desafios significativos para construção, drenagem e uso.
 
 A inclinação do terreno pode influenciar decisões relacionadas à construção, ao paisagismo e à acessibilidade, impactando, assim, o valor da propriedade.
-
 
 ## **Neighborhood**
 
@@ -551,7 +548,6 @@ A coluna **`Condition1`** no dataset refere-se à **proximidade da propriedade a
 
 Essas categorias ajudam a descrever as condições de localização da propriedade e podem ser fatores importantes na avaliação de imóveis.
 
-
 ## **Condition2**
 
 A coluna **`Condition2`** no dataset também se refere à **proximidade da propriedade a uma estrada principal ou ferrovia**, mas é usada para indicar uma segunda condição se a propriedade estiver próxima de mais de uma dessas vias.
@@ -573,7 +569,6 @@ A coluna **`Condition2`** no dataset também se refere à **proximidade da propr
 
 Essas categorias ajudam a oferecer uma visão mais clara das condições em que a propriedade se encontra, permitindo uma melhor avaliação de seu valor de mercado.
 
-
 ## **BldgType**
 
 A coluna **`BldgType`** no dataset refere-se ao **tipo de edifício** da propriedade. Essa informação é importante porque diferentes tipos de edifícios podem ter características distintas que afetam seu valor, layout e uso.
@@ -593,7 +588,6 @@ A coluna **`BldgType`** no dataset refere-se ao **tipo de edifício** da proprie
 - **Características de Design e Estrutura**: Cada tipo de edifício pode ter características de design e estrutura que são relevantes para a avaliação da condição e do valor da propriedade.
 
 A análise dessa coluna é fundamental para entender como o tipo de edifício se relaciona com outras variáveis e o preço de venda da propriedade.
-
 
 ## HouseStyle
 
@@ -617,3 +611,504 @@ A coluna **`HouseStyle`** no dataset se refere ao **estilo arquitetônico da res
 - **Preferências do Comprador**: O estilo arquitetônico pode refletir as preferências do comprador, e a análise dessa coluna pode ajudar a entender quais estilos estão em alta no mercado.
 
 Entender a coluna `HouseStyle` pode ser fundamental para a análise de como o estilo da casa se relaciona com o preço de venda e outras variáveis no dataset.
+
+
+## **RoofStyle**
+
+A coluna **`RoofStyle`** no dataset refere-se ao **estilo do telhado** da residência. O estilo do telhado pode afetar tanto a estética da casa quanto sua funcionalidade, e é uma característica importante a ser considerada em avaliações imobiliárias.
+
+### Significado e Categorias de `RoofStyle`:
+
+- **Flat**: Telhado plano - um telhado que é praticamente horizontal e não possui inclinação significativa.
+- **Gable**: Telhado de duas águas - um telhado com duas inclinações que se encontram em um pico (ou "garganta"), formando um triângulo nas extremidades.
+- **Hip**: Telhado em hipérbole - um telhado que possui quatro lados inclinados que se encontram em um pico, formando uma estrutura mais arredondada.
+- **Gambrel**: Telhado gambrel - um telhado com duas inclinações em cada lado, onde a parte inferior é mais íngreme do que a superior (frequentemente associado a casas de estilo colonial ou fazenda).
+- **Mansard**: Telhado mansardado - um telhado que possui uma inclinação acentuada em cada lado e que pode incluir um sótão habitável no espaço sob o telhado.
+- **Other**: Outros estilos de telhados que não se enquadram nas categorias acima.
+
+### Importância de `RoofStyle`:
+
+- **Valoração**: Diferentes estilos de telhados podem impactar o preço de venda de uma casa. Telhados que são considerados mais esteticamente agradáveis ou que têm melhor desempenho em certas condições climáticas podem ter um valor maior.
+- **Desempenho**: O estilo do telhado pode influenciar a durabilidade e a manutenção da casa, como a capacidade de drenagem de água e a resistência a condições climáticas adversas.
+- **Atração Visual**: O estilo do telhado contribui significativamente para a aparência geral da casa, que pode influenciar as preferências dos compradores.
+
+Analisar a coluna `RoofStyle` pode ajudar a identificar padrões no valor da propriedade, especialmente quando combinada com outras variáveis, como `SalePrice` e `Neighborhood`.
+
+
+## **RoofMatl**
+
+A coluna **`RoofMatl`** no dataset refere-se ao **material do telhado** da residência. O tipo de material utilizado pode impactar tanto a durabilidade do telhado quanto a estética da casa, além de influenciar as percepções de valor e qualidade.
+
+### Significado e Categorias de `RoofMatl`:
+
+- **Tar & Gravel**: Telhado de asfalto e cascalho - um material comum em telhados planos, frequentemente usado em construções comerciais ou residências com telhados planos.
+- **Comp Shingle**: Telha de composição - um material popular para telhados residenciais, feito de fibras de vidro e asfalto, que oferece uma boa durabilidade e variedade de estilos.
+- **Cement/Concrete**: Telhado de cimento/concreto - um material robusto e durável, frequentemente usado em áreas com clima quente e seco.
+- **Metal**: Telhado metálico - pode ser feito de aço, alumínio ou cobre, conhecido por sua durabilidade e resistência a condições climáticas extremas.
+- **Membrane**: Membrana - um tipo de telhado utilizado frequentemente em estruturas comerciais, feito de material sintético ou emborrachado.
+- **Wood Shake**: Telhado de madeira - feito de tábuas de madeira, oferece uma estética rústica, mas pode exigir mais manutenção.
+- **Other**: Outros materiais de telhado que não se enquadram nas categorias acima.
+
+### Importância de `RoofMatl`:
+
+- **Durabilidade e Manutenção**: Diferentes materiais têm níveis variados de durabilidade e exigência de manutenção. Por exemplo, telhados de metal podem durar mais que telhados de madeira, mas podem ter custos diferentes.
+- **Desempenho Térmico**: O material do telhado pode influenciar a eficiência energética da casa, afetando a temperatura interna e os custos de aquecimento e resfriamento.
+- **Aparência e Estilo**: O material do telhado contribui para a estética geral da casa e pode afetar o valor de revenda, pois alguns materiais podem ser mais desejáveis em certos mercados.
+
+Analisar a coluna `RoofMatl` pode ajudar a identificar como diferentes materiais de telhado impactam o valor da propriedade, especialmente quando analisados em conjunto com outras variáveis, como `SalePrice` e `Neighborhood`.
+
+
+## **Exterior1st**
+
+A coluna **`Exterior1st`** no dataset **House Prices** refere-se ao **material ou acabamento utilizado na parte externa da casa**. Essa informação é importante porque o tipo de exterior pode afetar a estética, a durabilidade, a manutenção e, consequentemente, o valor da propriedade.
+
+### Significado e Categorias de `Exterior1st`:
+
+As categorias típicas que você pode encontrar para `Exterior1st` incluem:
+
+- **Vinyl Siding**: Revestimento de vinil - um material comum e popular para acabamentos externos, conhecido por sua durabilidade e baixa manutenção.
+- **Metal Siding**: Revestimento metálico - oferece resistência, mas pode exigir manutenção para evitar corrosão.
+- **Wood Siding**: Revestimento de madeira - proporciona uma estética natural, mas pode precisar de manutenção regular e tratamento contra pragas.
+- **Stucco**: Estuque - um acabamento aplicado em camadas, muito utilizado em climas mais quentes.
+- **Brick**: Tijolo - um material clássico que oferece durabilidade e um apelo estético forte.
+- **Cement Board**: Placa de cimento - um material que imita a aparência da madeira, mas é mais durável e resistente a pragas.
+- **Other**: Outros materiais que não se encaixam nas categorias mencionadas acima.
+
+### Importância de `Exterior1st`:
+
+- **Valor de Revenda**: O acabamento externo pode impactar significativamente o valor de revenda da casa. Materiais mais desejáveis podem aumentar o preço da propriedade.
+- **Manutenção**: Diferentes materiais exigem níveis variados de manutenção. Por exemplo, madeira pode precisar de pintura e tratamento mais frequentes do que vinil.
+- **Desempenho Térmico**: O tipo de exterior pode afetar a eficiência energética da casa, influenciando os custos de aquecimento e resfriamento.
+
+Ao analisar a coluna `Exterior1st`, você pode entender como o acabamento externo de uma casa se relaciona com outras variáveis, como `SalePrice`, e como ele pode influenciar a percepção de qualidade e valor da propriedade.
+
+
+## **Exterior2nd**
+
+A coluna **`Exterior2nd`** no dataset **House Prices** refere-se ao **material ou acabamento utilizado na parte externa de uma casa, especificamente para a segunda camada de revestimento**. Isso pode ocorrer em situações onde uma casa possui mais de um tipo de acabamento externo, que pode ser uma escolha estética ou funcional.
+
+### Significado e Categorias de `Exterior2nd`:
+
+As categorias típicas que você pode encontrar para `Exterior2nd` são semelhantes às de `Exterior1st`, e incluem:
+
+- **Vinyl Siding**: Revestimento de vinil.
+- **Metal Siding**: Revestimento metálico.
+- **Wood Siding**: Revestimento de madeira.
+- **Stucco**: Estuque.
+- **Brick**: Tijolo.
+- **Cement Board**: Placa de cimento.
+- **Other**: Outros materiais que não se encaixam nas categorias mencionadas acima.
+- **No**: Se não houver um segundo tipo de revestimento.
+
+### Importância de `Exterior2nd`:
+
+- **Estética e Design**: Ter um segundo tipo de acabamento pode ser uma escolha de design para dar um apelo visual mais interessante ou para integrar diferentes estilos arquitetônicos.
+- **Desempenho e Proteção**: A adição de um segundo material pode oferecer vantagens em termos de proteção e resistência às intempéries.
+- **Valorização**: A combinação de diferentes materiais pode influenciar o valor de revenda da casa, dependendo das preferências do mercado.
+
+Analisar `Exterior2nd` pode ajudar a entender como os acabamentos externos se relacionam com outras variáveis no conjunto de dados, como `SalePrice`, e quais combinações de materiais podem ser mais desejáveis para compradores em potencial.
+
+
+## **MasVnrType**
+
+A coluna **`MasVnrType`** no dataset **House Prices** refere-se ao **tipo de revestimento de alvenaria que é utilizado na parte externa de uma casa**. O revestimento de alvenaria é um material decorativo que pode ser aplicado em paredes externas para melhorar a estética e proporcionar uma camada adicional de proteção.
+
+### Significado e Categorias de `MasVnrType`:
+
+As categorias típicas que você pode encontrar para `MasVnrType` incluem:
+
+- **None**: Sem revestimento de alvenaria.
+- **BrkFace**: Revestimento de alvenaria em tijolo.
+- **Stone**: Revestimento em pedra.
+- **BrkCmn**: Revestimento de alvenaria comum (tijolo não aparente).
+- **Other**: Outros tipos de revestimentos que não se encaixam nas categorias mencionadas.
+
+### Importância de `MasVnrType`:
+
+- **Estética**: O tipo de revestimento de alvenaria pode afetar significativamente a aparência externa de uma casa, influenciando a primeira impressão que os compradores têm do imóvel.
+- **Durabilidade e Proteção**: Materiais como tijolo e pedra oferecem resistência a intempéries e podem aumentar a durabilidade da estrutura.
+- **Valorização**: O tipo de revestimento pode influenciar o valor de mercado da casa, pois alguns materiais são mais valorizados do que outros.
+- **Relação com o Preço de Venda**: Analisar como o `MasVnrType` se relaciona com o `SalePrice` pode ajudar a identificar quais tipos de revestimento são preferidos pelos compradores e podem resultar em preços de venda mais altos.
+
+Essa coluna pode ser uma variável importante na análise de dados, especialmente ao investigar como características estéticas e de construção impactam o valor das propriedades.
+
+
+## **ExterQual**
+
+A coluna **`ExterQual`** no dataset **House Prices** refere-se à **qualidade do material de acabamento externo da casa**. Esta variável avalia a condição e a qualidade do revestimento exterior, que é um fator importante para a estética e a durabilidade do imóvel.
+
+### Significado e Categorias de `ExterQual`:
+
+As categorias típicas que você pode encontrar para `ExterQual` incluem:
+
+- **Ex**: Excelente (Excellent)
+- **Gd**: Boa (Good)
+- **TA**: Média (Average/Typical)
+- **Fa**: Justa (Fair)
+- **Po**: Pobre (Poor)
+
+### Importância de `ExterQual`:
+
+- **Aparência e Estética**: A qualidade do acabamento externo impacta diretamente a aparência da casa e, portanto, pode influenciar a percepção de valor por parte dos compradores.
+- **Durabilidade**: Materiais e acabamentos de alta qualidade tendem a oferecer melhor proteção contra intempéries, reduzindo a necessidade de manutenção ao longo do tempo.
+- **Avaliação do Imóvel**: A qualidade do acabamento pode ser um dos fatores que os avaliadores consideram ao determinar o valor de mercado de uma propriedade.
+- **Relação com o Preço de Venda**: Analisar a relação entre `ExterQual` e `SalePrice` pode ajudar a entender como a qualidade do acabamento externo influencia o valor final das casas no mercado.
+
+Essa variável é essencial na análise de dados de imóveis, pois a qualidade do acabamento externo é uma característica que pode impactar significativamente as decisões de compra e a valorização do imóvel.
+
+
+## **ExterCond**
+
+A coluna **`ExterCond`** no dataset **House Prices** refere-se à **condição do material de acabamento externo da casa**. Esta variável avalia o estado geral do revestimento externo e sua manutenção, que são fatores importantes para a estética e a durabilidade do imóvel.
+
+### Significado e Categorias de `ExterCond`:
+
+As categorias típicas que você pode encontrar para `ExterCond` incluem:
+
+- **Ex**: Excelente (Excellent)
+- **Gd**: Boa (Good)
+- **TA**: Média (Average/Typical)
+- **Fa**: Justa (Fair)
+- **Po**: Pobre (Poor)
+
+### Importância de `ExterCond`:
+
+- **Aparência Geral**: A condição do acabamento externo afeta a estética da casa, o que pode influenciar a percepção de valor por parte dos compradores.
+- **Durabilidade e Manutenção**: Acabamentos em boas condições tendem a proteger melhor a casa contra intempéries, reduzindo a necessidade de reparos e manutenção.
+- **Avaliação do Imóvel**: A condição externa é um fator considerado por avaliadores na determinação do valor de mercado de uma propriedade.
+- **Impacto no Preço de Venda**: Analisar a relação entre `ExterCond` e `SalePrice` pode ajudar a entender como a condição do acabamento externo influencia o valor final das casas no mercado.
+
+A variável `ExterCond` é crucial para uma análise detalhada de propriedades, pois a condição do acabamento externo pode ter um impacto significativo nas decisões de compra e na valorização do imóvel.
+
+
+## **Foundation**
+
+A coluna **`Foundation`** no dataset **House Prices** refere-se ao **tipo de fundação utilizada na construção da casa**. A fundação é um elemento estrutural crítico que suporta o peso da casa e influencia a estabilidade e durabilidade da edificação.
+
+### Significado e Categorias de `Foundation`:
+
+As categorias típicas que você pode encontrar para `Foundation` incluem:
+
+- **PConc**: Fundação de concreto pré-moldado (Poured Concrete)
+- **CBlock**: Fundação de bloco de concreto (Concrete Block)
+- **BrkTil**: Fundação de tijolos (Brick Tile)
+- **Wood**: Fundação de madeira (Wood)
+- **Stone**: Fundação de pedra (Stone)
+- **Slab**: Fundação em laje (Slab)
+
+### Importância de `Foundation`:
+
+- **Estabilidade Estrutural**: O tipo de fundação afeta a estabilidade e a capacidade de suportar cargas da casa.
+- **Durabilidade**: Fundos de melhor qualidade podem aumentar a durabilidade e a resistência da estrutura ao longo do tempo.
+- **Impacto na Valorização**: Diferentes tipos de fundações podem influenciar a avaliação de propriedades, já que algumas fundações podem ser mais desejáveis em certas regiões ou tipos de clima.
+- **Desempenho em Condições Climáticas**: Fundos variados têm diferentes desempenhos em relação à umidade do solo, chuvas e mudanças de temperatura, afetando a manutenção da propriedade.
+
+Analisar a coluna `Foundation` pode ser útil para entender melhor a qualidade e o valor das casas no mercado, além de auxiliar na identificação de características que podem impactar a segurança e a durabilidade da construção.
+
+
+## **BsmtQual**
+
+A coluna **`BsmtQual`** no dataset **House Prices** refere-se à **qualidade do acabamento do porão** da casa. Essa informação é importante, pois o acabamento do porão pode influenciar a habitabilidade, o conforto e o valor geral da propriedade.
+
+### Significado e Categorias de `BsmtQual`:
+
+As categorias típicas que você pode encontrar para `BsmtQual` incluem:
+
+- **Ex**: Excelente (Excellent)
+- **Gd**: Bom (Good)
+- **TA**: Adequado (Typical/Average)
+- **Fa**: Abaixo do adequado (Fair)
+- **Po**: Pobre (Poor)
+- **NA**: Sem porão (No Basement)
+
+### Importância de `BsmtQual`:
+
+- **Conforto e Usabilidade**: Um porão bem acabado pode aumentar o espaço utilizável da casa e melhorar o conforto dos moradores.
+- **Valor de Mercado**: A qualidade do acabamento do porão pode afetar diretamente o valor de mercado da casa, com acabamentos de melhor qualidade geralmente resultando em preços mais altos.
+- **Aparência Geral**: A qualidade do porão pode influenciar a percepção geral da casa, tanto internamente quanto externamente.
+- **Potencial de Aluguel**: Se o porão for habitável e bem acabado, ele pode ser alugado como espaço adicional, aumentando a renda potencial da propriedade.
+
+Analisar a coluna `BsmtQual` pode ajudar a entender como as características do porão impactam a valorização das casas e a habitabilidade, além de permitir comparações entre propriedades com diferentes níveis de acabamento.
+
+
+## **BsmtCond**
+
+A coluna `BsmtCond` no conjunto de dados **House Prices - Advanced Regression Techniques** refere-se à condição do porão (basement) da casa. Os valores dessa coluna geralmente são categóricos e podem representar as seguintes condições:
+
+- **Ex**: Excellent (Excelente)
+- **Gd**: Good (Bom)
+- **TA**: Typical/Average (Típico/Médio)
+- **Fa**: Fair (Razoável)
+- **Po**: Poor (Pobre)
+- **NA**: No Basement (Sem Porão)
+
+Essas categorias ajudam a descrever a qualidade e a condição do porão, o que pode influenciar o valor da casa. 
+
+
+## **BsmtExposure**
+
+A coluna `BsmtExposure` no conjunto de dados **House Prices - Advanced Regression Techniques** refere-se ao nível de exposição do porão (basement) ao ambiente externo. Os valores dessa coluna geralmente são categóricos e podem incluir:
+
+- **Gd**: Good Exposure (Boa Exposição) - O porão tem janelas ou acessos que permitem boa luz natural e ventilação.
+- **Av**: Average Exposure (Exposição Média) - O porão tem alguma exposição, mas não é ideal.
+- **Mn**: Minor Exposure (Exposição Menor) - O porão tem limitações em termos de luz natural e ventilação.
+- **No**: No Exposure (Sem Exposição) - O porão não tem janelas ou acessos para o exterior.
+- **NA**: Não aplicável (pode ser usado quando não há porão).
+
+Essas categorias ajudam a entender o ambiente do porão, que pode afetar a funcionalidade e a percepção de valor da casa. 
+
+## **BsmtFinType1**
+
+A coluna `BsmtFinType1` no conjunto de dados **House Prices - Advanced Regression Techniques** refere-se ao tipo de acabamento do primeiro porão (basement) da casa. Os valores dessa coluna são categóricos e podem incluir:
+
+- **GLQ**: Good Living Quarters (Boas Condições de Habitação) - O porão é acabado e pode ser usado como área de estar.
+- **ALQ**: Average Living Quarters (Condições de Habitação Médias) - O porão é acabado, mas com qualidade média.
+- **BLQ**: Below Average Living Quarters (Condições de Habitação Abaixo da Média) - O porão é parcialmente acabado, com qualidade inferior.
+- **NLQ**: No Living Quarters (Sem Condições de Habitação) - O porão não é acabado e não é adequado para habitação.
+- **Unf**: Unfinished (Não Acabado) - O porão está em estado bruto, sem acabamentos.
+- **NA**: Não aplicável (quando não há porão).
+
+Essas categorias ajudam a descrever a utilidade do espaço do porão, o que pode impactar o valor de mercado da casa. 
+
+
+## **BsmtFinType2**
+
+A coluna `BsmtFinType2` no conjunto de dados **House Prices - Advanced Regression Techniques** refere-se ao tipo de acabamento do segundo porão (basement) da casa, caso exista um. Os valores dessa coluna também são categóricos e podem incluir:
+
+- **GLQ**: Good Living Quarters (Boas Condições de Habitação) - O segundo porão é acabado e pode ser usado como área de estar.
+- **ALQ**: Average Living Quarters (Condições de Habitação Médias) - O segundo porão é acabado, mas com qualidade média.
+- **BLQ**: Below Average Living Quarters (Condições de Habitação Abaixo da Média) - O segundo porão é parcialmente acabado, com qualidade inferior.
+- **NLQ**: No Living Quarters (Sem Condições de Habitação) - O segundo porão não é acabado e não é adequado para habitação.
+- **Unf**: Unfinished (Não Acabado) - O segundo porão está em estado bruto, sem acabamentos.
+- **NA**: Não aplicável (quando não há um segundo porão).
+
+Essas categorias ajudam a descrever as condições e a utilidade do segundo porão, caso presente, e podem influenciar a avaliação do imóvel. 
+
+## **Heating**
+
+A coluna `Heating` no conjunto de dados **House Prices - Advanced Regression Techniques** refere-se ao tipo de sistema de aquecimento da casa. Os valores dessa coluna são categóricos e podem incluir:
+
+- **GasA**: Gas (Aquecimento a Gás) - O sistema de aquecimento utiliza gás como fonte de energia.
+- **GasW**: Gas Water (Aquecimento a Gás com Água) - Sistema de aquecimento que utiliza água aquecida a gás.
+- **Grav**: Gravity (Aquecimento por Gravidade) - Sistema de aquecimento por gravidade, que é menos comum atualmente.
+- **OthW**: Other Water (Outros Sistemas de Aquecimento com Água) - Qualquer outro tipo de aquecimento que utiliza água.
+- **Wall**: Wall (Aquecimento por Parede) - Sistema de aquecimento embutido nas paredes.
+- **Floor**: Floor (Aquecimento por Piso) - Sistema de aquecimento instalado no piso.
+- **NA**: Não aplicável (pode ser usado em casos onde não há sistema de aquecimento).
+
+Essas categorias ajudam a entender as opções de aquecimento disponíveis na casa, o que pode impactar o conforto e a eficiência energética do imóvel.
+
+## **HeatingQC**
+
+A coluna `HeatingQC` no conjunto de dados **House Prices - Advanced Regression Techniques** refere-se à qualidade do sistema de aquecimento da casa. Os valores dessa coluna são categóricos e podem incluir:
+
+- **Ex**: Excellent (Excelente) - Sistema de aquecimento de alta qualidade, muito eficiente.
+- **Gd**: Good (Bom) - Sistema de aquecimento de boa qualidade, mas não no nível excelente.
+- **TA**: Typical/Average (Típico/Médio) - Sistema de aquecimento de qualidade média.
+- **Fa**: Fair (Razoável) - Sistema de aquecimento com qualidade abaixo da média.
+- **Po**: Poor (Pobre) - Sistema de aquecimento de baixa qualidade ou ineficiente.
+- **NA**: Não aplicável (pode ser usado quando não há sistema de aquecimento).
+
+Essas categorias ajudam a descrever a eficiência e a condição do sistema de aquecimento, o que pode influenciar a percepção de valor da casa.
+
+
+## **CentralAir**
+
+A coluna `CentralAir` no conjunto de dados **House Prices - Advanced Regression Techniques** indica se a casa possui ar-condicionado central. Os valores dessa coluna são binários e podem incluir:
+
+- **Y**: Yes (Sim) - A casa possui ar-condicionado central.
+- **N**: No (Não) - A casa não possui ar-condicionado central.
+
+Essa informação é relevante, pois a presença de ar-condicionado central pode afetar o conforto dos moradores e, consequentemente, o valor de mercado da casa. 
+
+
+## **Electrical**
+
+A coluna `Electrical` no conjunto de dados **House Prices - Advanced Regression Techniques** refere-se ao tipo de sistema elétrico da casa. Os valores dessa coluna são categóricos e podem incluir:
+
+- **SBrkr**: Standard Breakers (Disjuntores Padrão) - Sistema elétrico com disjuntores padrão.
+- **FuseA**: Fuse Box (Caixa de Fusíveis) - Sistema elétrico com caixa de fusíveis, geralmente mais antigo.
+- **FuseF**: Fuse Box with Fuses (Caixa de Fusíveis com Fusíveis) - Sistema elétrico que possui fusíveis de baixa capacidade.
+- **FuseP**: Fuse Box with Fuses (Alta Capacidade) - Sistema elétrico com caixa de fusíveis de alta capacidade.
+- **Mix**: Mixed (Misturado) - Sistema elétrico que combina diferentes tipos de instalações.
+- **NA**: Não aplicável (pode ser usado em casos onde não há sistema elétrico).
+
+Essa coluna é importante, pois o tipo de sistema elétrico pode influenciar a segurança e a eficiência energética da casa, além de afetar o valor de mercado. 
+
+
+## **KitchenQual**
+
+A coluna `KitchenQual` no conjunto de dados **House Prices - Advanced Regression Techniques** refere-se à qualidade da cozinha da casa. Os valores dessa coluna são categóricos e podem incluir:
+
+- **Ex**: Excellent (Excelente) - Cozinha de alta qualidade, com acabamentos e eletrodomésticos modernos.
+- **Gd**: Good (Bom) - Cozinha de boa qualidade, mas não no nível excelente.
+- **TA**: Typical/Average (Típico/Médio) - Cozinha com qualidade média e acabamentos comuns.
+- **Fa**: Fair (Razoável) - Cozinha de qualidade abaixo da média, com acabamentos antigos ou desgaste visível.
+- **Po**: Poor (Pobre) - Cozinha de baixa qualidade, possivelmente em más condições ou sem acabamentos adequados.
+- **NA**: Não aplicável (pode ser usado em casos onde não há cozinha).
+
+Essa informação é relevante, pois a qualidade da cozinha pode impactar a percepção de valor da casa e a satisfação dos moradores.
+
+
+## **Functional**
+
+A coluna `Functional` no conjunto de dados **House Prices - Advanced Regression Techniques** refere-se à funcionalidade do layout da casa. Os valores dessa coluna são categóricos e podem incluir:
+
+- **Typ**: Typical Functionality (Funcionalidade Típica) - A casa tem um layout padrão e funcional.
+- **Min1**: Minor Deductions (Deduções Menores) - A casa tem algumas características que podem reduzir sua funcionalidade, mas não significativamente.
+- **Min2**: Minor Deductions (Deduções Menores) - A casa apresenta problemas de funcionalidade que exigem considerações menores.
+- **Mod**: Moderate Deductions (Deduções Moderadas) - A casa tem um layout com problemas que afetam sua funcionalidade de maneira moderada.
+- **Sev**: Severe Deductions (Deduções Severas) - A casa tem um layout com problemas graves de funcionalidade que podem afetar sua utilização.
+- **Sal**: Salvage (Necessita de Reforma) - A casa pode precisar de reformas significativas para se tornar funcional.
+- **NA**: Não aplicável (pode ser usado em casos onde a funcionalidade não é relevante).
+
+Essa coluna é importante, pois a funcionalidade do layout da casa pode impactar a satisfação dos moradores e a percepção de valor da propriedade. 
+
+
+## **FireplaceQu**
+
+A coluna `FireplaceQu` no conjunto de dados **House Prices - Advanced Regression Techniques** refere-se à qualidade da lareira da casa. Os valores dessa coluna são categóricos e podem incluir:
+
+- **Ex**: Excellent (Excelente) - A lareira está em excelente estado, com características de alta qualidade.
+- **Gd**: Good (Bom) - A lareira está em bom estado, mas não é tão impressionante quanto a excelente.
+- **TA**: Typical/Average (Típico/Médio) - A lareira é típica, com qualidade média.
+- **Fa**: Fair (Razoável) - A lareira apresenta desgaste ou problemas, mas ainda pode funcionar.
+- **Po**: Poor (Pobre) - A lareira está em más condições e pode não ser utilizável.
+- **NA**: Não aplicável (pode ser usado em casos onde não há lareira).
+
+Essa informação é relevante, pois a presença e a qualidade da lareira podem influenciar o conforto e a atmosfera da casa, além de impactar a percepção de valor do imóvel. 
+
+
+## **GarageType**
+
+A coluna `GarageType` no conjunto de dados **House Prices - Advanced Regression Techniques** refere-se ao tipo de garagem da casa. Os valores dessa coluna são categóricos e podem incluir:
+
+- **Attchd**: Attached Garage (Garagem Anexa) - A garagem é conectada à casa.
+- **Detchd**: Detached Garage (Garagem Separada) - A garagem é uma estrutura independente, separada da casa.
+- **BuiltIn**: Built-in Garage (Garagem Embutida) - A garagem está embutida na estrutura da casa, geralmente abaixo do nível do solo.
+- **Basment**: Basement Garage (Garagem no Porão) - A garagem está localizada no porão da casa.
+- **CarPort**: Carport (Cobertura para Carro) - Uma estrutura coberta para estacionar carros, mas não totalmente fechada.
+- **NA**: Não aplicável (pode ser usado em casos onde não há garagem).
+
+Essas categorias ajudam a entender as opções de estacionamento disponíveis e podem impactar a funcionalidade e o valor de mercado da casa. 
+
+
+## **GarageFinish**
+
+A coluna `GarageFinish` no conjunto de dados **House Prices - Advanced Regression Techniques** refere-se ao acabamento interno da garagem. Os valores dessa coluna são categóricos e podem incluir:
+
+- **Fin**: Finished (Acabado) - A garagem está totalmente acabada, com piso e paredes em boas condições.
+- **RFn**: Roughed In (Acabamento Bruto) - A garagem tem algum tipo de acabamento, mas não está completamente finalizada.
+- **Unf**: Unfinished (Não Acabado) - A garagem está em estado bruto, sem acabamentos.
+- **NA**: Não aplicável (pode ser usado em casos onde não há garagem).
+
+Essa informação é relevante, pois o acabamento da garagem pode afetar a funcionalidade e o valor percebido da propriedade.
+
+## **GarageQual**
+
+A coluna `GarageQual` no conjunto de dados **House Prices - Advanced Regression Techniques** refere-se à qualidade da garagem da casa. Os valores dessa coluna são categóricos e podem incluir:
+
+- **Ex**: Excellent (Excelente) - A garagem é de alta qualidade, bem construída e em ótimo estado.
+- **Gd**: Good (Bom) - A garagem é de boa qualidade, mas não tão impressionante quanto a excelente.
+- **TA**: Typical/Average (Típico/Médio) - A garagem tem qualidade média e atende aos padrões normais.
+- **Fa**: Fair (Razoável) - A garagem apresenta alguns problemas ou desgaste, mas ainda é utilizável.
+- **Po**: Poor (Pobre) - A garagem está em más condições e pode não ser funcional.
+- **NA**: Não aplicável (pode ser usado em casos onde não há garagem).
+
+Essa informação é importante, pois a qualidade da garagem pode influenciar a percepção de valor da casa e o conforto dos moradores.
+
+
+## **GarageCond**
+
+A coluna `GarageCond` no conjunto de dados **House Prices - Advanced Regression Techniques** refere-se à condição da garagem da casa. Os valores dessa coluna são categóricos e podem incluir:
+
+- **Ex**: Excellent (Excelente) - A garagem está em excelente estado, bem conservada e funcional.
+- **Gd**: Good (Bom) - A garagem está em boas condições, com pequenos sinais de desgaste.
+- **TA**: Typical/Average (Típico/Médio) - A garagem tem condição média, com desgaste normal.
+- **Fa**: Fair (Razoável) - A garagem apresenta condições abaixo da média, com alguns problemas visíveis.
+- **Po**: Poor (Pobre) - A garagem está em más condições, possivelmente não funcional.
+- **NA**: Não aplicável (pode ser usado em casos onde não há garagem).
+
+Essa informação é relevante, pois a condição da garagem pode impactar o valor de mercado da casa e a satisfação dos moradores.
+
+
+## **PavedDrive**
+
+A coluna `PavedDrive` no conjunto de dados **House Prices - Advanced Regression Techniques** refere-se ao tipo de acesso pavimentado à garagem ou à entrada da casa. Os valores dessa coluna são categóricos e podem incluir:
+
+- **Y**: Yes (Sim) - O acesso é pavimentado.
+- **P**: Partial (Parcial) - O acesso é parcialmente pavimentado.
+- **N**: No (Não) - O acesso não é pavimentado.
+
+Essa informação é importante porque o tipo de acesso pode afetar a funcionalidade, a estética e a percepção de valor da propriedade. 
+
+
+## **PoolQC**
+
+A coluna `PoolQC` no conjunto de dados **House Prices - Advanced Regression Techniques** refere-se à qualidade da piscina, caso a propriedade tenha uma. Os valores dessa coluna são categóricos e podem incluir:
+
+- **Ex**: Excellent (Excelente) - A piscina está em excelente estado, bem mantida e com acabamentos de alta qualidade.
+- **Gd**: Good (Bom) - A piscina está em boas condições, mas pode não ter o mesmo nível de acabamentos que uma excelente.
+- **TA**: Typical/Average (Típico/Médio) - A piscina é típica, com qualidade média e manutenção razoável.
+- **Fa**: Fair (Razoável) - A piscina apresenta problemas ou desgaste visível, mas ainda pode ser utilizável.
+- **Po**: Poor (Pobre) - A piscina está em más condições e pode não ser funcional.
+- **NA**: Não aplicável (pode ser usado em casos onde não há piscina).
+
+Essa informação é relevante, pois a presença e a qualidade da piscina podem impactar a percepção de valor da casa e o conforto dos moradores. 
+
+
+## **Fence**
+
+A coluna `Fence` no conjunto de dados **House Prices - Advanced Regression Techniques** refere-se à presença e qualidade da cerca ao redor da propriedade. Os valores dessa coluna são categóricos e podem incluir:
+
+- **GdPrv**: Good Privacy (Boa Privacidade) - A cerca oferece uma boa privacidade e proteção.
+- **MnPrv**: Minimum Privacy (Privacidade Mínima) - A cerca oferece uma privacidade limitada.
+- **GdWo**: Good Wrought Iron (Boa Ferro Forjado) - A cerca de ferro forjado está em boas condições.
+- **MnWw**: Minimum Wrought Iron (Ferro Forjado Mínimo) - A cerca de ferro forjado está em más condições.
+- **NA**: Não aplicável (pode ser usado em casos onde não há cerca).
+
+Essa informação é importante, pois a presença e a qualidade da cerca podem impactar a privacidade, segurança e percepção de valor da propriedade. Se precisar de mais informações sobre outras colunas ou tiver outras perguntas, estou à disposição!
+
+
+## **MiscFeature**
+
+A coluna `MiscFeature` no conjunto de dados **House Prices - Advanced Regression Techniques** refere-se a recursos adicionais que podem estar presentes na propriedade, mas que não se encaixam nas categorias principais. Os valores dessa coluna são categóricos e podem incluir:
+
+- **Elev**: Elevator (Elevador) - A casa possui um elevador.
+- **Gar2**: Second Garage (Segunda Garagem) - A propriedade tem uma segunda garagem.
+- **Othr**: Other (Outro) - Outros recursos que não se enquadram nas categorias acima.
+- **NA**: Não aplicável (pode ser usado em casos onde não há recursos adicionais).
+
+Essa coluna é importante porque a presença de características extras pode impactar a percepção de valor da casa e a satisfação dos moradores.
+
+
+## **SaleType**
+
+A coluna `SaleType` no conjunto de dados **House Prices - Advanced Regression Techniques** refere-se ao tipo de venda da propriedade. Os valores dessa coluna são categóricos e podem incluir:
+
+- **WD**: Normal Sale (Venda Normal) - Venda padrão da propriedade.
+- **New**: New Home (Casa Nova) - Venda de uma casa nova.
+- **Abnorml**: Abnormal Sale - Venda em condições anormais, como um leilão ou venda judicial.
+- **AdjLand**: Adjoining Land Purchase - Venda que envolve a compra de um terreno adjacente.
+- **Alloca**: Allocation - Venda que foi alocada para um determinado comprador.
+- **Family**: Sale between Family - Venda entre membros da família.
+- **ConLD**: Lender Sale - Venda por um credor, muitas vezes relacionada a uma execução hipotecária.
+- **ConLI**: Lender Sale with Improvements - Venda por um credor que inclui melhorias na propriedade.
+- **NA**: Não aplicável (geralmente não utilizado).
+
+Essa informação é relevante, pois o tipo de venda pode influenciar o valor de mercado e a percepção da propriedade.
+
+
+## **SaleCondition**
+
+A coluna `SaleCondition` no conjunto de dados **House Prices - Advanced Regression Techniques** refere-se à condição da venda da propriedade. Os valores dessa coluna são categóricos e podem incluir:
+
+- **Normal**: Normal Sale (Venda Normal) - Venda padrão sem condições especiais.
+- **Abnorml**: Abnormal Sale - Venda em condições anormais, como leilão ou venda judicial.
+- **AdjLand**: Adjoining Land Purchase - Venda que envolve a compra de terreno adjacente.
+- **Alloca**: Allocation - Venda que foi alocada a um comprador específico.
+- **Family**: Sale between Family - Venda entre membros da família.
+- **ConLD**: Lender Sale - Venda por um credor, geralmente relacionada a uma execução hipotecária.
+- **ConLI**: Lender Sale with Improvements - Venda por um credor que inclui melhorias na propriedade.
+
+Essa coluna é importante porque as condições de venda podem impactar o valor da propriedade e as percepções dos compradores. Se precisar de mais informações sobre outras colunas ou tiver outras perguntas, estou à disposição!
