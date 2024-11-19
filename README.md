@@ -612,7 +612,6 @@ A coluna **`HouseStyle`** no dataset se refere ao **estilo arquitetônico da res
 
 Entender a coluna `HouseStyle` pode ser fundamental para a análise de como o estilo da casa se relaciona com o preço de venda e outras variáveis no dataset.
 
-
 ## **RoofStyle**
 
 A coluna **`RoofStyle`** no dataset refere-se ao **estilo do telhado** da residência. O estilo do telhado pode afetar tanto a estética da casa quanto sua funcionalidade, e é uma característica importante a ser considerada em avaliações imobiliárias.
@@ -633,7 +632,6 @@ A coluna **`RoofStyle`** no dataset refere-se ao **estilo do telhado** da resid�
 - **Atração Visual**: O estilo do telhado contribui significativamente para a aparência geral da casa, que pode influenciar as preferências dos compradores.
 
 Analisar a coluna `RoofStyle` pode ajudar a identificar padrões no valor da propriedade, especialmente quando combinada com outras variáveis, como `SalePrice` e `Neighborhood`.
-
 
 ## **RoofMatl**
 
@@ -656,7 +654,6 @@ A coluna **`RoofMatl`** no dataset refere-se ao **material do telhado** da resid
 - **Aparência e Estilo**: O material do telhado contribui para a estética geral da casa e pode afetar o valor de revenda, pois alguns materiais podem ser mais desejáveis em certos mercados.
 
 Analisar a coluna `RoofMatl` pode ajudar a identificar como diferentes materiais de telhado impactam o valor da propriedade, especialmente quando analisados em conjunto com outras variáveis, como `SalePrice` e `Neighborhood`.
-
 
 ## **Exterior1st**
 
@@ -681,7 +678,6 @@ As categorias típicas que você pode encontrar para `Exterior1st` incluem:
 - **Desempenho Térmico**: O tipo de exterior pode afetar a eficiência energética da casa, influenciando os custos de aquecimento e resfriamento.
 
 Ao analisar a coluna `Exterior1st`, você pode entender como o acabamento externo de uma casa se relaciona com outras variáveis, como `SalePrice`, e como ele pode influenciar a percepção de qualidade e valor da propriedade.
-
 
 ## **Exterior2nd**
 
@@ -708,7 +704,6 @@ As categorias típicas que você pode encontrar para `Exterior2nd` são semelhan
 
 Analisar `Exterior2nd` pode ajudar a entender como os acabamentos externos se relacionam com outras variáveis no conjunto de dados, como `SalePrice`, e quais combinações de materiais podem ser mais desejáveis para compradores em potencial.
 
-
 ## **MasVnrType**
 
 A coluna **`MasVnrType`** no dataset **House Prices** refere-se ao **tipo de revestimento de alvenaria que é utilizado na parte externa de uma casa**. O revestimento de alvenaria é um material decorativo que pode ser aplicado em paredes externas para melhorar a estética e proporcionar uma camada adicional de proteção.
@@ -731,7 +726,6 @@ As categorias típicas que você pode encontrar para `MasVnrType` incluem:
 - **Relação com o Preço de Venda**: Analisar como o `MasVnrType` se relaciona com o `SalePrice` pode ajudar a identificar quais tipos de revestimento são preferidos pelos compradores e podem resultar em preços de venda mais altos.
 
 Essa coluna pode ser uma variável importante na análise de dados, especialmente ao investigar como características estéticas e de construção impactam o valor das propriedades.
-
 
 ## **ExterQual**
 
@@ -756,7 +750,6 @@ As categorias típicas que você pode encontrar para `ExterQual` incluem:
 
 Essa variável é essencial na análise de dados de imóveis, pois a qualidade do acabamento externo é uma característica que pode impactar significativamente as decisões de compra e a valorização do imóvel.
 
-
 ## **ExterCond**
 
 A coluna **`ExterCond`** no dataset **House Prices** refere-se à **condição do material de acabamento externo da casa**. Esta variável avalia o estado geral do revestimento externo e sua manutenção, que são fatores importantes para a estética e a durabilidade do imóvel.
@@ -779,7 +772,6 @@ As categorias típicas que você pode encontrar para `ExterCond` incluem:
 - **Impacto no Preço de Venda**: Analisar a relação entre `ExterCond` e `SalePrice` pode ajudar a entender como a condição do acabamento externo influencia o valor final das casas no mercado.
 
 A variável `ExterCond` é crucial para uma análise detalhada de propriedades, pois a condição do acabamento externo pode ter um impacto significativo nas decisões de compra e na valorização do imóvel.
-
 
 ## **Foundation**
 
@@ -805,7 +797,6 @@ As categorias típicas que você pode encontrar para `Foundation` incluem:
 
 Analisar a coluna `Foundation` pode ser útil para entender melhor a qualidade e o valor das casas no mercado, além de auxiliar na identificação de características que podem impactar a segurança e a durabilidade da construção.
 
-
 ## **BsmtQual**
 
 A coluna **`BsmtQual`** no dataset **House Prices** refere-se à **qualidade do acabamento do porão** da casa. Essa informação é importante, pois o acabamento do porão pode influenciar a habitabilidade, o conforto e o valor geral da propriedade.
@@ -830,7 +821,6 @@ As categorias típicas que você pode encontrar para `BsmtQual` incluem:
 
 Analisar a coluna `BsmtQual` pode ajudar a entender como as características do porão impactam a valorização das casas e a habitabilidade, além de permitir comparações entre propriedades com diferentes níveis de acabamento.
 
-
 ## **BsmtCond**
 
 A coluna `BsmtCond` no conjunto de dados **House Prices - Advanced Regression Techniques** refere-se à condição do porão (basement) da casa. Os valores dessa coluna geralmente são categóricos e podem representar as seguintes condições:
@@ -842,8 +832,7 @@ A coluna `BsmtCond` no conjunto de dados **House Prices - Advanced Regression Te
 - **Po**: Poor (Pobre)
 - **NA**: No Basement (Sem Porão)
 
-Essas categorias ajudam a descrever a qualidade e a condição do porão, o que pode influenciar o valor da casa. 
-
+Essas categorias ajudam a descrever a qualidade e a condição do porão, o que pode influenciar o valor da casa.
 
 ## **BsmtExposure**
 
@@ -855,7 +844,7 @@ A coluna `BsmtExposure` no conjunto de dados **House Prices - Advanced Regressio
 - **No**: No Exposure (Sem Exposição) - O porão não tem janelas ou acessos para o exterior.
 - **NA**: Não aplicável (pode ser usado quando não há porão).
 
-Essas categorias ajudam a entender o ambiente do porão, que pode afetar a funcionalidade e a percepção de valor da casa. 
+Essas categorias ajudam a entender o ambiente do porão, que pode afetar a funcionalidade e a percepção de valor da casa.
 
 ## **BsmtFinType1**
 
@@ -868,8 +857,7 @@ A coluna `BsmtFinType1` no conjunto de dados **House Prices - Advanced Regressio
 - **Unf**: Unfinished (Não Acabado) - O porão está em estado bruto, sem acabamentos.
 - **NA**: Não aplicável (quando não há porão).
 
-Essas categorias ajudam a descrever a utilidade do espaço do porão, o que pode impactar o valor de mercado da casa. 
-
+Essas categorias ajudam a descrever a utilidade do espaço do porão, o que pode impactar o valor de mercado da casa.
 
 ## **BsmtFinType2**
 
@@ -882,7 +870,7 @@ A coluna `BsmtFinType2` no conjunto de dados **House Prices - Advanced Regressio
 - **Unf**: Unfinished (Não Acabado) - O segundo porão está em estado bruto, sem acabamentos.
 - **NA**: Não aplicável (quando não há um segundo porão).
 
-Essas categorias ajudam a descrever as condições e a utilidade do segundo porão, caso presente, e podem influenciar a avaliação do imóvel. 
+Essas categorias ajudam a descrever as condições e a utilidade do segundo porão, caso presente, e podem influenciar a avaliação do imóvel.
 
 ## **Heating**
 
@@ -911,7 +899,6 @@ A coluna `HeatingQC` no conjunto de dados **House Prices - Advanced Regression T
 
 Essas categorias ajudam a descrever a eficiência e a condição do sistema de aquecimento, o que pode influenciar a percepção de valor da casa.
 
-
 ## **CentralAir**
 
 A coluna `CentralAir` no conjunto de dados **House Prices - Advanced Regression Techniques** indica se a casa possui ar-condicionado central. Os valores dessa coluna são binários e podem incluir:
@@ -919,8 +906,7 @@ A coluna `CentralAir` no conjunto de dados **House Prices - Advanced Regression 
 - **Y**: Yes (Sim) - A casa possui ar-condicionado central.
 - **N**: No (Não) - A casa não possui ar-condicionado central.
 
-Essa informação é relevante, pois a presença de ar-condicionado central pode afetar o conforto dos moradores e, consequentemente, o valor de mercado da casa. 
-
+Essa informação é relevante, pois a presença de ar-condicionado central pode afetar o conforto dos moradores e, consequentemente, o valor de mercado da casa.
 
 ## **Electrical**
 
@@ -933,8 +919,7 @@ A coluna `Electrical` no conjunto de dados **House Prices - Advanced Regression 
 - **Mix**: Mixed (Misturado) - Sistema elétrico que combina diferentes tipos de instalações.
 - **NA**: Não aplicável (pode ser usado em casos onde não há sistema elétrico).
 
-Essa coluna é importante, pois o tipo de sistema elétrico pode influenciar a segurança e a eficiência energética da casa, além de afetar o valor de mercado. 
-
+Essa coluna é importante, pois o tipo de sistema elétrico pode influenciar a segurança e a eficiência energética da casa, além de afetar o valor de mercado.
 
 ## **KitchenQual**
 
@@ -949,7 +934,6 @@ A coluna `KitchenQual` no conjunto de dados **House Prices - Advanced Regression
 
 Essa informação é relevante, pois a qualidade da cozinha pode impactar a percepção de valor da casa e a satisfação dos moradores.
 
-
 ## **Functional**
 
 A coluna `Functional` no conjunto de dados **House Prices - Advanced Regression Techniques** refere-se à funcionalidade do layout da casa. Os valores dessa coluna são categóricos e podem incluir:
@@ -962,8 +946,7 @@ A coluna `Functional` no conjunto de dados **House Prices - Advanced Regression 
 - **Sal**: Salvage (Necessita de Reforma) - A casa pode precisar de reformas significativas para se tornar funcional.
 - **NA**: Não aplicável (pode ser usado em casos onde a funcionalidade não é relevante).
 
-Essa coluna é importante, pois a funcionalidade do layout da casa pode impactar a satisfação dos moradores e a percepção de valor da propriedade. 
-
+Essa coluna é importante, pois a funcionalidade do layout da casa pode impactar a satisfação dos moradores e a percepção de valor da propriedade.
 
 ## **FireplaceQu**
 
@@ -976,8 +959,7 @@ A coluna `FireplaceQu` no conjunto de dados **House Prices - Advanced Regression
 - **Po**: Poor (Pobre) - A lareira está em más condições e pode não ser utilizável.
 - **NA**: Não aplicável (pode ser usado em casos onde não há lareira).
 
-Essa informação é relevante, pois a presença e a qualidade da lareira podem influenciar o conforto e a atmosfera da casa, além de impactar a percepção de valor do imóvel. 
-
+Essa informação é relevante, pois a presença e a qualidade da lareira podem influenciar o conforto e a atmosfera da casa, além de impactar a percepção de valor do imóvel.
 
 ## **GarageType**
 
@@ -990,8 +972,7 @@ A coluna `GarageType` no conjunto de dados **House Prices - Advanced Regression 
 - **CarPort**: Carport (Cobertura para Carro) - Uma estrutura coberta para estacionar carros, mas não totalmente fechada.
 - **NA**: Não aplicável (pode ser usado em casos onde não há garagem).
 
-Essas categorias ajudam a entender as opções de estacionamento disponíveis e podem impactar a funcionalidade e o valor de mercado da casa. 
-
+Essas categorias ajudam a entender as opções de estacionamento disponíveis e podem impactar a funcionalidade e o valor de mercado da casa.
 
 ## **GarageFinish**
 
@@ -1017,7 +998,6 @@ A coluna `GarageQual` no conjunto de dados **House Prices - Advanced Regression 
 
 Essa informação é importante, pois a qualidade da garagem pode influenciar a percepção de valor da casa e o conforto dos moradores.
 
-
 ## **GarageCond**
 
 A coluna `GarageCond` no conjunto de dados **House Prices - Advanced Regression Techniques** refere-se à condição da garagem da casa. Os valores dessa coluna são categóricos e podem incluir:
@@ -1031,7 +1011,6 @@ A coluna `GarageCond` no conjunto de dados **House Prices - Advanced Regression 
 
 Essa informação é relevante, pois a condição da garagem pode impactar o valor de mercado da casa e a satisfação dos moradores.
 
-
 ## **PavedDrive**
 
 A coluna `PavedDrive` no conjunto de dados **House Prices - Advanced Regression Techniques** refere-se ao tipo de acesso pavimentado à garagem ou à entrada da casa. Os valores dessa coluna são categóricos e podem incluir:
@@ -1040,8 +1019,7 @@ A coluna `PavedDrive` no conjunto de dados **House Prices - Advanced Regression 
 - **P**: Partial (Parcial) - O acesso é parcialmente pavimentado.
 - **N**: No (Não) - O acesso não é pavimentado.
 
-Essa informação é importante porque o tipo de acesso pode afetar a funcionalidade, a estética e a percepção de valor da propriedade. 
-
+Essa informação é importante porque o tipo de acesso pode afetar a funcionalidade, a estética e a percepção de valor da propriedade.
 
 ## **PoolQC**
 
@@ -1054,8 +1032,7 @@ A coluna `PoolQC` no conjunto de dados **House Prices - Advanced Regression Tech
 - **Po**: Poor (Pobre) - A piscina está em más condições e pode não ser funcional.
 - **NA**: Não aplicável (pode ser usado em casos onde não há piscina).
 
-Essa informação é relevante, pois a presença e a qualidade da piscina podem impactar a percepção de valor da casa e o conforto dos moradores. 
-
+Essa informação é relevante, pois a presença e a qualidade da piscina podem impactar a percepção de valor da casa e o conforto dos moradores.
 
 ## **Fence**
 
@@ -1069,7 +1046,6 @@ A coluna `Fence` no conjunto de dados **House Prices - Advanced Regression Techn
 
 Essa informação é importante, pois a presença e a qualidade da cerca podem impactar a privacidade, segurança e percepção de valor da propriedade. Se precisar de mais informações sobre outras colunas ou tiver outras perguntas, estou à disposição!
 
-
 ## **MiscFeature**
 
 A coluna `MiscFeature` no conjunto de dados **House Prices - Advanced Regression Techniques** refere-se a recursos adicionais que podem estar presentes na propriedade, mas que não se encaixam nas categorias principais. Os valores dessa coluna são categóricos e podem incluir:
@@ -1080,7 +1056,6 @@ A coluna `MiscFeature` no conjunto de dados **House Prices - Advanced Regression
 - **NA**: Não aplicável (pode ser usado em casos onde não há recursos adicionais).
 
 Essa coluna é importante porque a presença de características extras pode impactar a percepção de valor da casa e a satisfação dos moradores.
-
 
 ## **SaleType**
 
@@ -1097,7 +1072,6 @@ A coluna `SaleType` no conjunto de dados **House Prices - Advanced Regression Te
 - **NA**: Não aplicável (geralmente não utilizado).
 
 Essa informação é relevante, pois o tipo de venda pode influenciar o valor de mercado e a percepção da propriedade.
-
 
 ## **SaleCondition**
 
